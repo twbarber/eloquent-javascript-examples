@@ -4,9 +4,9 @@ function every(array, test) {
 
 function everyLoop(array, test) {
     for(let e of array) {
-        if(!test(e)) { return false }
+        if(!test(e)) { return false; }
     }
-    return true
+    return true;
 }
 
 console.log(every([1, 3, 5], n => n < 10));
